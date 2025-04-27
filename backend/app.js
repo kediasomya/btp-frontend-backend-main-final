@@ -129,5 +129,5 @@ app.put('/api/contacts/:userId/:contactId', async (req, res) => {
   // Start server
   app.listen(PORT, '0.0.0.0', () => {
     console.log("Server is running on port", PORT);
-    console.log("Access the server at:", `http://192.168.233.247:${PORT}`);
+    console.log("Access the server at:", `http://192.168.183.247:${PORT}`);
   });
